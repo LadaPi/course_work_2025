@@ -59,7 +59,6 @@ axs[2].plot(t, x_rand, color="blue")
 axs[2].plot(t, x_rand_noisy, lw=0.9, color="green")
 axs[2].plot(t, x_rand_denoised, lw=1.2, color="red")
 
-# Додаємо загальну легенду внизу
 legend_elements = [
     Line2D([0], [0], color='blue', label='Початковий сигнал'),
     Line2D([0], [0], color='green', label='Зашумлений сигнал'),
